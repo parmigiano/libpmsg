@@ -1,0 +1,10 @@
+prefix=/usr/local
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libpmsg
+Description: Parmigiano TCP packet node for C and C++
+Version: 0.1.0
+Libs: -L${libdir} -lpmsg
+Libs.private: -pthread
+Cflags: -I${includedir}/libpmsg

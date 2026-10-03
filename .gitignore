@@ -1,0 +1,11 @@
+.out/
+.build/
+tools/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+libpmsg-dev/
+libpmsg-dev.tar.gz
